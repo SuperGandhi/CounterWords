@@ -4,9 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>Counter Words</title>
 </head>
 <body>
-    
+    <div class="container">
+        <h2>Counter Words</h2>
+        <textarea name="textarea" id="text" placeholder="Please write your text here..." maxlength="50"></textarea>
+        <p>Total Words:  <span class="total-counter"
+            id ="total-counter">25</span>
+        </p>
+        <p>
+            Remaining:
+            <span class="remaining-counter" id="remaining-counter">30</span>
+        </p>
+    </div>
 </body>
+<script src="index.js"></script>
 </html>
